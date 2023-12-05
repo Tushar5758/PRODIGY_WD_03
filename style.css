@@ -1,0 +1,45 @@
+body {
+    background-image: url('back.png');
+    background-size: cover; 
+    background-repeat: repeat;
+    background-position: center center; 
+  }
+  
+#start-page,
+#game-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#board {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+#board div {
+    width: 100px;
+    height: 100px;
+    background-color: #8bb5e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color:#8bb5e8 ;
+    
+}
